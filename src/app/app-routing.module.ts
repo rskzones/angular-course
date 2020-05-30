@@ -7,7 +7,17 @@ const routes: Routes = [
   {
     path: '',
     redirectTo: '/dashboard',
-    pathMatch: 'full',
+    pathMatch: 'full'
+  },
+  {
+    path: 'calculadora',
+    redirectTo: '/calculadora',
+    pathMatch: 'full'
+  },
+  {
+    path: 'conversor-moedas',
+    redirectTo: '/conversorMoedas',
+    pathMatch: 'full'
   }
 
 ];
